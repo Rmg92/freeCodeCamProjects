@@ -1,2 +1,2 @@
 # freeCodeCamphtml
-For the html projects i do for freeCodeCamp
+For the html projects I do for freeCodeCamp
