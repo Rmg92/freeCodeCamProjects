@@ -1,0 +1,52 @@
+.siteDescription {
+    text-align: center;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.survey-form {
+    display: block;
+    background-color: blanchedalmond;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 0.5rem;
+    padding: 10px 10px;
+}
+
+.form-label {
+    display: block;
+    font-size: 20px;
+}
+
+.form-input {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(https://4.bp.blogspot.com/-7TR9TowqPpU/Uq8I32eZIGI/AAAAAAAADXU/55kZqFvlLro/s1600/Pizza+HD+Wallpaper.jpg);
+    background-size: cover;
+}
+
+.commentSection {
+    margin: 0 auto;
+    width: 95%;
+    min-height: 100px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.submitButton {
+    font-size: 20px;
+    width: 95%;
+}

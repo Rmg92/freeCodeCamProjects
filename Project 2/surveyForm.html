@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="surveyFormStyle.css">
+    </head>
+</html>
+
+<body>
+    <header class="siteDescription">
+        <div>
+            <h1 id="title">Favourite Pizza survey</h1>
+        </div>
+        <div>
+            <p id="description">This is a survey about you favourite Pizza type and Ingredients</p>
+        </div>
+    </header>
+
+    <form id="survey-form" class="survey-form">
+        <div>
+            <label class="form-label" for="name" id="name-label">Name</label>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label class="form-label" for="email" id="email-label">Email</label>
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label class="form-label" for="number" id="number-label">Age</label>
+            <input class="form-input" type="number" name="age" id="number" min="18" max="100" placeholder="Enter your age">
+        </div>
+        <div>
+            <label for="pizza-crust" class="form-label">What is your favourite Pizza crust type?</label>
+            <select name="pizza-crust" id="dropdown" class="form-input">
+                <option value="" disabled selected>Choose one option</option>
+                <option value="Thin">Thin</option>
+                <option value="Medium">Medium</option>
+                <option value="Thick">Thick</option>
+            </select>
+        </div>
+        <div>
+            <p>The most important question: Pineapple?</p>
+            <label for="yes" class="form-label">
+                <input type="radio" name="question" id="yes" value="yes">
+                Yes
+            </label>
+            <label for="no" class="form-label">
+                <input type="radio" name="question" id="no" value="no">
+                No
+            </label>
+        </div>
+        <div>
+            <p>What are your favourite toppings?</p>
+            <label for="mushrooms" class="form-label">
+                <input type="checkbox" name="favouriteTopping" id="mushrooms" value="mushrooms">
+                Mushrooms
+            </label>
+            <label for="bacon" class="form-label">
+                <input type="checkbox" name="favouriteTopping" id="bacon" value="bacon">
+                Bacon
+            </label>
+            <label for="pineapple" class="form-label">
+                <input type="checkbox" name="favouriteTopping" id="pineapple" value="pineapple">
+                Pineapple
+            </label>
+            <label for="chicken" class="form-label">
+                <input type="checkbox" name="favouriteTopping" id="chicken" value="chicken">
+                Chicken
+            </label>
+            <label for="olives" class="form-label">
+                <input type="checkbox" name="favouriteTopping" id="olives" value="olives">
+                Olives
+            </label>
+        </div>
+        <div>
+            <p>Comments</p>
+            <textarea class="commentSection" placeholder="Enter any comments here..."></textarea>
+        </div>
+        <div>
+            <button id="submit" class="submitButton">Submit</button>
+        </div>
+    </form>
+</body>
