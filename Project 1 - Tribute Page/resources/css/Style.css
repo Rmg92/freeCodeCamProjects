@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #DDD;
+}
+
+#main {
+    background-color: blanchedalmond;
+    max-width: 800px;
+    height: 100vh;
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+#image {
+    padding: 10px 0 0 0;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.article {
+    background-color: blanchedalmond;
+    max-width: 800px;
+    margin: auto;
+}
+
+#mainText{
+  padding: 0 10px 0 10px;
+}
